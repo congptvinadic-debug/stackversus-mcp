@@ -28,7 +28,7 @@ Cursor, Windsurf, Codex, Claude Desktop and other JSON configs:
 | `search_limits(query, dataset?, limit?)` | keyword search across every plan, limit, rate and gotcha |
 | `get_tool(tool_id, dataset?)` | full verified record for one product |
 | `compare_tools(tool_ids[])` | 2 to 6 products side by side |
-| `recent_changes(days?, tool_id?)` | dated price and limit changes with sources |
+| `list_changes(days?, tool_id?, include_wording?)` | dated price and limit changes (AI plans dataset) with sources |
 | `list_datasets()`, `list_tools(dataset?)` | coverage and ids |
 
 ## Also available
