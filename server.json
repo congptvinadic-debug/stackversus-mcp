@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.congptvinadic-debug/stackversus-limits",
+  "title": "StackVersus: verified SaaS limits & pricing",
+  "description": "Verified SaaS prices, plan limits and rate limits (AI tools, LLM APIs, voice, scraping) with sources",
+  "websiteUrl": "https://getstackversus.com/mcp",
+  "repository": {
+    "url": "https://github.com/congptvinadic-debug/stackversus-mcp",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://getstackversus.com/api/mcp"
+    }
+  ]
+}
